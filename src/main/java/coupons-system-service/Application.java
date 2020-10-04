@@ -16,11 +16,11 @@ import CouponSystemProjectJB.CoupoSystemFinalProject.exceptions.CouponSystemExce
 
 @ServletComponentScan
 @EnableScheduling
-public class CoupoSystemFinalProjectApplication {
+public class Application {
 
 	public static void main(String[] args) throws CouponSystemException {
 
-		ConfigurableApplicationContext context = SpringApplication.run(CoupoSystemFinalProjectApplication.class ,args);
+		ConfigurableApplicationContext context = SpringApplication.run(Application.class ,args);
 		System.out.println("Test Application Starts");
 		System.out.println("Test Application Starts22");
 

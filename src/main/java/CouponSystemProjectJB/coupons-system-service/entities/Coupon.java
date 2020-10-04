@@ -24,7 +24,6 @@ import CouponSystemProjectJB.CoupoSystemFinalProject.models.CouponType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 /**
  * <h3>Coupon</h3> 

@@ -1,10 +1,8 @@
 package CouponSystemProjectJB.CoupoSystemFinalProject.models;
 
-import CouponSystemProjectJB.CoupoSystemFinalProject.models.ClientType;
 import lombok.AllArgsConstructor;
 import lombok.Data;
 import lombok.NoArgsConstructor;
-import lombok.RequiredArgsConstructor;
 
 /**
  * <h3>User</h3> 

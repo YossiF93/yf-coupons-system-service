@@ -16,14 +16,11 @@ import javax.validation.constraints.Email;
 import javax.validation.constraints.NotNull;
 import javax.validation.constraints.Size;
 
-import lombok.AllArgsConstructor;
-import lombok.NoArgsConstructor;
+import lombok.*;
 
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
-import lombok.Data;
 
- 
 /**
  * <h3>Customer</h3> 
  *  This Class is defying an object of a Customer in the system. 
@@ -33,8 +30,9 @@ import lombok.Data;
  */
 @Entity
 @Data
-@NoArgsConstructor
+@Builder
 @AllArgsConstructor
+@NoArgsConstructor
 @Table(name = "Customers")
 public class Customer {
 	

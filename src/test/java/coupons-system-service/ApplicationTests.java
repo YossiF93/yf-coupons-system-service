@@ -1,4 +1,4 @@
-package CouponSystemProjectJB.CoupoSystemFinalProject;
+package backend;
 
 import org.junit.Test;
 import org.junit.runner.RunWith;
